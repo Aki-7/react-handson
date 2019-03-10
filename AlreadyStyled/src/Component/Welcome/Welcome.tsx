@@ -10,8 +10,7 @@ export class Welcome extends React.Component<WelcomeProps,{}>{
     render(){
         return(
             <div className={this.props.className + " " + Style.container}>
-                {/* <h1>Welcome {this.props.name}!</h1> */}
-                <h1>Welcome {this.props.name}</h1>
+                <h1>Welcome {this.props.name}!</h1>
             </div>
         )
     }
