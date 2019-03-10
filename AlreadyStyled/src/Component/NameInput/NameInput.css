@@ -1,0 +1,7 @@
+.container{
+    background-color: cadetblue;
+    padding: 20px;
+    min-width: 200px;
+    max-width: 1000px;
+    min-height: 76px;
+}

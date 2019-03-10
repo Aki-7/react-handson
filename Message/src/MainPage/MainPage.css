@@ -1,0 +1,28 @@
+.header{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100vw;
+    font-size: 45px;
+}
+
+.newMsg{
+    position: fixed;
+    top: 90px;
+    left: 20px;
+    width: calc(50vw - 40px);
+    height: calc(100vh - 100px);
+    padding: 0 10px 10px 10px;
+    font-size: 1.5rem;
+    overflow-y: scroll;
+}
+
+.thread{
+    position: fixed;
+    top: 90px;
+    left: calc(50vw + 10px);
+    width: calc(50vw - 20px);
+    height: calc(100vh - 100px);
+    margin: 0 ;
+    overflow: scroll;
+}

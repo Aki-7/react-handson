@@ -1,0 +1,58 @@
+Component Dirはあとでつくる
+
+JSXの説明
+    なぜJSXなのか
+    変数に代入することや
+    入れ子構造を取ることもできる
+    className キャメルケース
+    propsの書き方({}を使うか、文字列)
+    .tsxなどの拡張子
+    jsxを使わなくても一応かける。
+    コンパイル後はobjectになる
+    Injection Attackが効かない
+
+Component and Props
+    Welcome Componentをつくってみる。最初はComonent dirに直入れ
+    必ずComponentは大文字から始める
+    Dom tag が小文字からはじまる
+    props are read only
+
+Styling
+    Welcome dir にまとめる <- 自分的にはだけど
+    クラス名によるスタイリング　インラインスタイル　CSS Modules CSS in JS
+    CSS in JS?　反対派も多い StyledComponentが良さげ　
+    CSS Modules  はキャメルケースで書く
+    -> Container のclassName は外からいじれるようにしたほうがいいなじゃね
+    名前空間がぶつからない
+
+webpack.config.jsについて
+    mode development or production
+        productionにするとminimizeされたファイルが出力されたり
+        環境変数としてpluginの動作が変わったりする
+    resolve.extensions 
+        ここに入った拡張子はimport時に拡張子がいらない
+        tsx js が必要
+    devtool
+        react devtool で検索
+    module.rules
+        use / loader
+            後ろから適用されていく
+            loaders: ['babel-loader','ts-loader']
+            .babelrcファイルで出力の環境設定をするらしい。
+        css-loader
+            module : cssmodulesの有効化
+            importloaders : css-loaderの前に適応されるloaderの数を指定
+        css-loader : CSSファイル間の依存関係の解決を行う
+        style-loader STYLEタグの出力
+
+postcss.config.js
+    react-toolboxの最新版に使われている
+    これも後ろから適応されていく
+
+tsconfig.json
+    target: typescriptの解決先の対応
+        es2015以上じゃないとコンパイルが通らない
+    include: いらない
+
+
+    

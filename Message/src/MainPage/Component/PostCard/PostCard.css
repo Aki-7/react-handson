@@ -1,0 +1,21 @@
+.nameInput{
+    left: 20px;
+    max-width: calc(100% - 40px);
+    width: 20rem;
+}
+
+.messageInput{
+    left: 20px;
+    width: calc(100% - 40px);
+}
+
+.fileInput{
+    position: relative;
+    left: 20px;
+    margin-bottom: 20px;
+}
+
+.sendButton{
+    left: 20px;
+    margin-bottom: 20px;
+}

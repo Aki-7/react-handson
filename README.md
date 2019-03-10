@@ -1,1 +1,2 @@
-# react-handson
+# React Typescript Webpack
+を用いたwebfront 環境開発の手引きの為の作業用repository

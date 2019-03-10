@@ -1,0 +1,11 @@
+.thread{
+    width: calc(100% - 20px);
+    min-height: 200px;
+    padding: 0 10px 0 10px;
+}
+
+.seeMoreButton{
+    margin-top: 20px;
+    width: 100px;
+    left: calc(50% - 50px)
+}

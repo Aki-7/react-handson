@@ -1,0 +1,20 @@
+.loginCard{
+    position: absolute;
+    width: 500px;
+    height: 15rem;
+    top: calc(50vh - 7.5rem);
+    left: calc(50vw - 250px);
+}
+
+.cardHeader{
+    padding: 5px;
+    width: 100%;
+    height: 3rem;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    background-color: #3381EA;
+}
+
+.input{
+    margin: 0 100px 0 100px;
+}
